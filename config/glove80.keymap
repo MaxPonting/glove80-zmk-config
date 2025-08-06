@@ -12,7 +12,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define HYPER LC(LS(LG(LALT)))
-
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
@@ -75,9 +74,11 @@
             compatible = "zmk,behavior-input-two-axis";
             label = "MMVS";
             #binding-cells = <1>;
-            time-to-max-speed-ms = <4000>;
-            x-input-code = INPUT_REL_X;
-            y-input-code = INPUT_REL_Y;
+            time-to-max-speed-ms = <5000>;
+            x-input-code;
+            INPUT_REL_X;
+            y-input-code;
+            INPUT_REL_Y;
         };
     };
 
