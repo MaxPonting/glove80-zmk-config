@@ -23,7 +23,7 @@
 #define FACTORY_TEST 3
 
 &mmv {
-    time-to-max-speed-ms = <1000>;
+    time-to-max-speed-ms = <1500>;
     acceleration-exponent = <1>;
 };
 
