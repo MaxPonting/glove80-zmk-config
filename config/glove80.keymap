@@ -75,10 +75,8 @@
             label = "MMVS";
             #binding-cells = <1>;
             time-to-max-speed-ms = <5000>;
-            x-input-code;
-            INPUT_REL_X;
-            y-input-code;
-            INPUT_REL_Y;
+            x-input-code = INPUT_REL_X;
+            y-input-code = INPUT_REL_Y;
         };
     };
 
