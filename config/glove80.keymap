@@ -20,7 +20,7 @@
 #define MAGIC 2
 #define FACTORY_TEST 3
 
-&mmv { time-to-max-speed-ms = <500>; };
+&mmv { time-to-max-speed-ms = <2000>; };
 
 / {
     behaviors {
@@ -66,6 +66,15 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <200>;
             flavor = "tap-preferred";
+        };
+
+        mmvs: mmvs {
+            compatible = "zmk,behavior-input-two-axis";
+            label = "MMVS";
+            #binding-cells = <1>;
+            time-to-max-speed-ms = <4000>;
+            x-input-code = <1>;
+            y-input-code = <2>;
         };
     };
 
