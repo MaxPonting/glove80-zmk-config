@@ -124,12 +124,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&none       &none           &none           &none        &none                                                                                  &none              &none            &none                 &none                &none
-&none       &none           &none           &none        &none             &none                                                         &none  &none              &none            &none                 &none                &none
-&none       &kp Q           &kp W           &kp E        &kp R             &kp T                                                         &kp Y  &kp U              &kp I            &kp O                 &kp P                &none
-&none       &kp A           &kp S           &kp D        &kp F             &kp G                                                         &kp H  &kp J              &kp K            &kp L                 &kp SEMI             &none
-&none       &hm LEFT_GUI Z  &hm LEFT_ALT X  &hm LCTRL C  &hm LEFT_SHIFT V  &kp B  &kp ESCAPE  &kp TAB  &none  &none  &mo 2    &hmo 1 3   &kp N  &hm RIGHT_SHIFT M  &hm RCTRL COMMA  &hm RIGHT_ALT PERIOD  &hm RIGHT_GUI SLASH  &none
-&magic 5 0  &none           &none           &none        &none                    &kp BSPC    &kp DEL  &none  &none  &kp RET  &kp SPACE         &none              &none            &none                 &none                &none
+&none       &none           &none           &none               &none                                                                                  &none              &none        &none            &none               &none
+&none       &none           &none           &none               &none             &none                                                         &none  &none              &none        &none            &none               &none
+&none       &kp Q           &kp W           &kp E               &kp R             &kp T                                                         &kp Y  &kp U              &kp I        &kp O            &kp P               &none
+&none       &hm A LEFT_GUI  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G                                                         &kp H  &hm RIGHT_SHIFT J  &hm K RCTRL  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI  &none
+&none       &kp Z           &kp X           &kp C               &kp V             &kp B  &kp ESCAPE  &kp TAB  &none  &none  &mo 2    &hmo 1 3   &kp N  &kp M              &kp COMMA    &kp PERIOD       &kp SLASH           &none
+&magic 5 0  &none           &none           &none               &none                    &kp BSPC    &kp DEL  &none  &none  &kp RET  &kp SPACE         &none              &none        &none            &none               &none
             >;
         };
 
@@ -146,12 +146,12 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans    &trans                                                                                         &trans  &trans    &trans   &trans   &trans
-&trans  &trans  &trans  &trans    &trans     &trans                                                             &trans           &trans  &trans    &trans   &trans   &trans
-&trans  &kp F1  &kp F2  &kp F3    &kp F4     &kp F5                                                             &kp F6           &kp F7  &kp F8    &kp F9   &kp F10  &trans
-&trans  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                                             &kp N6           &kp N7  &kp N8    &kp N9   &kp N0   &trans
-&trans  &trans  &trans  &kp LEFT  &kp RIGHT  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp UP  &kp DOWN  &kp F11  &kp F12  &trans
-&trans  &trans  &trans  &trans    &trans                        &trans  &trans  &trans  &trans  &trans  &trans                   &trans  &trans    &trans   &trans   &trans
+&trans  &trans                 &trans                 &trans              &trans                                                                                                       &trans              &trans              &trans                  &trans                  &trans
+&trans  &trans                 &trans                 &trans              &trans                   &trans                                                             &trans           &trans              &trans              &trans                  &trans                  &trans
+&trans  &kp F1                 &kp F2                 &kp F3              &kp F4                   &kp F5                                                             &kp F6           &kp F7              &kp F8              &kp F9                  &kp F10                 &trans
+&trans  &hm LEFT_GUI NUMBER_1  &hm LEFT_ALT NUMBER_2  &hm LCTRL NUMBER_3  &hm LEFT_SHIFT NUMBER_4  &kp N5                                                             &kp N6           &hm RIGHT_SHIFT N7  &hm RCTRL NUMBER_8  &hm RIGHT_ALT NUMBER_9  &hm RIGHT_GUI NUMBER_0  &trans
+&trans  &trans                 &trans                 &kp LEFT            &kp RIGHT                &kp C_VOLUME_DOWN  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP  &kp UP              &kp DOWN            &kp F11                 &kp F12                 &trans
+&trans  &trans                 &trans                 &trans              &trans                                      &trans  &trans  &trans  &trans  &trans  &trans                   &trans              &trans              &trans                  &trans                  &trans
             >;
         };
 
